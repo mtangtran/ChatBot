@@ -3,8 +3,10 @@ Initial Chatbot class.
 
 This class will handle the calls from other classes. This is meant to obfuscate the internal logic from the user.
 
+This class will use other classes to execute the internal logic.
 """
 from LogManager import LogManager
+from DBmanager  import DBManager
 class ChatBot:
 
     def __init__(self):
