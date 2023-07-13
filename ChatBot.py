@@ -13,7 +13,7 @@ class ChatBot:
         self.name = ""
         self.logManager = LogManager()
         self.dbmanager = DBManager()
-        pass
+
 
     def getHelloMessage(self, name):
         self.name = name
